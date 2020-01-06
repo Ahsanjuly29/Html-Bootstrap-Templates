@@ -1,0 +1,888 @@
+body {
+	font-family: 'Rosario', sans-serif;
+    font-size: 15px;
+    color: rgba(24,24,27,0.9);
+    font-weight: 400;
+    line-height: 1.6;
+	text-transform:capitalize;
+	text-align:justify;
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	/* color:white; */
+	text-decoration:none;
+}
+img{
+	max-width: 100%;
+}
+mark{
+	background-image: linear-gradient(#BC8F8F,#E91718);
+	background-size: 100% 36%;
+	background-repeat: no-repeat;
+	background-position: 0 bottom;
+	background-color: transparent;
+	padding: 0;
+	color: currentColor;
+}
+
+/**********************************
+****header Starts Ends Here ******
+**********************************/
+.header{
+	/* position: fixed; */
+	/* top: 0; */
+	/* left: 0; */
+	/* right: 0; */
+	/* border-bottom: 1px solidrgba(255, 0, 0, 0.6); */
+	/* z-index: 10; */
+}
+
+.header .navbar{
+	padding:0;
+	border-bottom:1px solid #880A0B;
+}
+.header .navbar-scroll {
+	background: rgba(47,47,47,1);
+	color: rgba(255,255,255,0.8);
+	/* padding: 0; */
+	/* box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4); */
+	transition-duration: 0.1s;
+}
+.header .navbar .navbar-brand{
+	font-family: 'Capriola', sans-serif;
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 32px;
+	color:	#fff;
+	display: inline-block;
+}
+.header .navbar .navbar-brand:hover{
+	background-image:url('../image/icon.png');
+	background-size:cover;
+	background-position:center;
+	background-color: transparent;
+}
+.header .navbar .navbar-brand-scroll{
+	color:white;
+}
+.header .navbar .collapse{
+	margin:auto;
+}
+/* .header .navbar .collapse .navbar-nav{ */
+.header .navbar .collapse .menu{
+	margin:auto;
+	margin-left:10%;
+	flex-direction: row;
+}
+.header .navbar .collapse .menu .nav-item{
+	margin: 0 0 0 30px;	
+}
+.header .navbar .collapse .navbar-nav .dropdown {
+	
+}
+.header .navbar .collapse .navbar-nav .dropdown .dropdown-toggle{
+	
+}
+.header .navbar .collapse .navbar-nav .dropdown .dropdown-toggle
+.dropdown-menu{
+	
+}
+
+.header .navbar .collapse .navbar-nav .dropdown .dropdown-toggle
+.dropdown-menu .dropdown-item{
+	
+}
+
+.header .navbar .collapse .menu .nav-item .nav-link{
+
+	font-size: 15px;
+	font-weight: 600;
+	padding: 0 !important;
+	line-height: 70px;
+	display: block;
+}
+/* .header .navbar .collapse .menu .nav-item .nav-link:after{ */
+ 
+	/* bottom: -1px; */
+	/* right: 0; */
+	/* width: 0px;	 */
+	transition: ease all 0.35s;
+	/* height: 3px; */
+ 	
+/* } */
+.header .navbar .collapse .menu .nav-item .nav-link-scroll{	
+	text-align:left;
+	/* color:#F3E3C0; */
+}
+.header .navbar .collapse .social{
+	margin-bottom: 10px;	
+}
+.header .navbar .collapse .social .nav-item{
+
+	margin: 0;	
+	padding-left:3px;
+	color:rgba(245,245,245,0.5);
+}
+.header .navbar .collapse .social .nav-item:hover{
+	
+}
+.header .navbar .collapse .social .nav-item .sicon{
+
+	display: inline-table;
+	padding: 0 !important;
+
+	border-radius: 100px;
+	background: none;
+	color:#fff;
+	
+	border: 2px solid #fff;
+	margin: 0 3px;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	font-weight: 600;	vertical-align: top;
+	text-align: center;
+	transition: ease all 0.55s;
+}
+.header .navbar .collapse .social .nav-item .sicon:hover{
+	color:rgba(27,27,27,0.9);
+	background:rgba(255,255,255,1);
+}
+.header .navbar .collapse .social .nav-item .sicon .fab{
+ 
+}
+.header .navbar .collapse .social .nav-item .sicon .fab:hover{
+	color:rgba(27,27,27,0.9);
+}
+
+
+/**********************************
+****header section Ends Here ******
+**********************************/
+
+
+
+
+/**********************************
+****Main Body section starts Here ******
+**********************************/
+
+.main{
+	display:block;
+}
+.main .main-body{
+	background-image:url('../image/bg1.jpg');
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.main .main-body .title{
+	border-left: 4px solid #ffffff;
+    padding-left: 35px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.main .main-body .title h1{
+	font-family: 'Capriola', sans-serif;
+    font-weight: 600;
+    font-size: 70px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+.main .main-body .title .cd-headline{
+	font-family: 'Capriola', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px;
+	color: #ffffff;
+}
+
+.main .main-body .title .cd-headline .bct-text{
+	
+}
+.main .main-body .title .cd-headline .bct-text .cd-words-wrapper{
+	
+}
+.main-body .title .btn{
+	padding-top: 25px;	
+}
+.main-body .title .btn .btn-theme{
+	
+	display: inline-block;
+	cursor: pointer;
+	
+	padding: 12px 25px;
+	width: auto;
+
+	text-align: center;	
+	font-size: 12px;
+	font-weight: 800;
+	line-height: inherit;
+	text-transform: uppercase;	
+	color:#ffffff;	
+	background: rgba(250,68,100,0.0);
+	
+	border: 2px solid transparent;
+	border-radius: 3px;
+	
+	box-shadow: 0px 8px 15px rgba(0, 0, 0,0.5);
+	
+	transition: ease-in-out all 0.55s;
+}
+.main-body .title .btn-theme:hover{
+	color:#ffffff;
+	background:rgba(27,27,27,0.7);
+	box-shadow:0px 8px 25px rgba(194,16,16,0.8);
+}
+
+
+.section{
+	padding:100px 0px;
+}
+#about img{
+	
+}
+#about .about-text{
+	padding-left: 40px;
+}
+#about .about-text h3{
+	font-family: 'Capriola', sans-serif;
+	padding-bottom: 10px;
+    font-weight: 700;
+    color: #111111;
+	font-size: 40px;
+
+}
+#about .about-text h5{
+	font-family: 'Capriola', sans-serif;
+	font-size:20px;
+	font-weight:600;
+}
+#about .about-text p{
+	font-size:16px;	
+    color: #111111;	
+}
+#about .about-text .btn{
+	padding: .5rem !important;
+}
+#about .about-text .btn-theme{
+	
+	margin-right:10px;
+	padding: 12px 25px;
+	display: inline-block;
+
+	width: max-content;
+	
+	font-size: 15px;
+	font-weight: 600;
+	line-height: inherit;
+	text-align: center;
+	text-transform: uppercase;
+	cursor: pointer;
+	color:#fff;	
+	background: rgba(194,16,16,0.8);
+	
+	border: 1px solid transparent;
+	border-radius: 3px;
+	box-shadow: 0px 5px 5px rgba(0, 0, 0,0.2);
+	transition: ease-in-out all 0.55s;
+}
+#about .about-text .btn-theme:hover{
+	color:#ffffff;
+	background:rgba(27,27,27,0.7);
+	box-shadow:0px 10px 15px rgba(233,23,24,0.4);	
+}
+
+#services .section-title h2{
+	font-family: 'Capriola', sans-serif;
+	font-size:32px;
+}
+#services .section-title p{
+	margin-bottom:0px;
+	font-size:16px;
+}
+#services  .services{
+	margin:15px 0px;
+}
+#services .services .service-item{
+	position: relative;
+	padding:20px;
+	top: 0;
+	background: #ffffff;
+	border: 5px solid transparent;
+	border-radius: 15px;
+	box-shadow: 0px 3px 10px 0px rgba(38, 59, 94, 0.1);	
+	transition: ease-in-out all 0.35s;
+}
+#services .services .service-item:hover{
+	border-radius: 20px;
+	border: 5px solid rgba(38, 59, 94, 0.3);
+	box-shadow: 0px 0px 30px 0px rgba(38, 59, 94, 0.3);
+		transition: ease-in-out all 0.535s;
+}
+#services  .services .service-item .icon{
+
+	margin-bottom: 10px;	
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	display: inline-block;
+	font-size: 54px;
+	color: rgba(194,16,16,0.8);
+}
+#services  .services .service-item .icon i{
+	
+}
+#services  .services .service-item .service-content{
+	margin-bottom: 15px;
+	font-weight: 700;
+	 
+	color: rgb(27,27,27,0.7);
+}
+#services  .services .service-item .service-content h6{
+	font-family: 'Capriola', sans-serif;
+	font-size:16px;
+	font-weight:700;
+}
+#services  .services .service-item .service-content p{
+	font-size:15px;
+	font-weight:400;
+}
+#work{
+	background:rgba(107,117,125,0.1);
+}
+#work .portfolio{
+	margin-bottom: 3rem !important;
+}
+#work .portfolio-title{
+
+}
+#work .portfolio-title h2{
+	font-family: 'Capriola', sans-serif;
+	font-family:;
+	font-weight: 700;
+	font-size: 52px;
+	margin: 0 0 15px;
+}
+#work .portfolio-title p{
+	margin:0px;
+	font-size:16px;
+}
+#work .portfolio-content{
+	position: relative;
+	/* height: 1086.6px; */
+	height: auto;
+}
+#work .portfolio-content .portfolio-item{
+	position:unset;
+	left: 0px;
+	top: 0px;
+	border:1px solid aliceblue;
+}
+#work .portfolio-content .portfolio-item .portfolio-box{
+	position: relative;
+	overflow: hidden;	
+}
+#work .portfolio-content .portfolio-item .portfolio-box
+.portfolio-img{
+	
+}
+#work .portfolio-content .portfolio-item .portfolio-box
+.portfolio-img img{ 
+	
+}
+
+#work .portfolio-content .portfolio-item .portfolio-box
+.portfolio-info{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background: rgba(17, 17, 17, 0.4);
+	transition: ease all 0.55s;
+	opacity: 0;	
+}
+#work .portfolio-content .portfolio-item .portfolio-box
+.portfolio-info:hover{
+	opacity: 1;
+}
+#work .portfolio-content .portfolio-item .portfolio-box .portfolio-info
+.gallery{
+	color:#fff;
+	display: inline-block;
+	vertical-align: middle;
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	top: 0;
+	bottom: 70px;
+	left: 0;
+	right: 30px;
+	margin: auto;	
+}
+#work .portfolio-content .portfolio-item .portfolio-box .portfolio-info
+.gallery:hover{
+	color:#ff0;	
+}
+#work .portfolio-content .portfolio-item .portfolio-box
+.portfolio-info .gallery i {
+	position: absolute;
+	font-size:50px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 0px;
+	height: 0px;
+	transition:ease-in-out all 0.35s;
+}
+#work .portfolio-content .portfolio-item .portfolio-box
+.portfolio-info h5{
+	font-family: 'Capriola', sans-serif;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background:rgba(194,16,16,0.8);
+	font-size: 16px;
+	padding: 20px;
+	margin: 0;
+	font-weight: 500;
+	text-align: center;	
+}
+#work .portfolio-content .portfolio-item .portfolio-box
+.portfolio-info h5 a{
+	font-family: 'Capriola', sans-serif;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 600;	
+}
+
+#skills{
+	
+}
+#skills h2{
+	font-family: 'Capriola', sans-serif;
+	margin:0;
+	padding-bottom:20px;
+	font-weight: 700;
+	color:rgba(10,10,10,0.9);	
+}
+#skills p{
+	
+}
+#skills .skills{
+	margin-bottom:30px;	
+}
+#skills .skills h6{
+	font-family: 'Capriola', sans-serif;
+	font-size: 16px;
+	margin: 0 0 10px;
+}
+#skills .skills .skill-bar{
+	position: relative;
+	background:#eee;
+}
+#skills .skills .skill-bar .skill-bar-in{
+	transition: ease all 0.55s;
+	height: 20px;
+	position: relative;	
+	background-color: rgba(194,16,16,0.8);
+	border-radius: 0px 10px 10px 0px;
+}
+#skills .skills .skill-bar .skill-bar-in span {
+
+    position: absolute;
+    right: 0;
+    top: -30px;
+    font-size: 14px;
+
+}
+#testimonial{
+	background-image:url('../image/testimonial.jpg');
+	background-position:center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+#testimonial h2{
+	font-family: 'Capriola', sans-serif;
+}
+#testimonial p{
+	
+}
+
+#testimonial .testimonial-col-01 {
+	padding: 50px 20px 30px;
+	border: 1px solid #ddd;
+	margin: 15px 10px 30px 10px;
+	position: relative;
+	text-align: center;
+	background:	#ffffff;
+	border-radius: 5px;
+}
+.testimonial-col-01 .img {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 0 20px;
+}
+.owl-carousel .owl-item img {
+    width: auto;
+    max-width: 100%;
+}
+.testimonial-col-01 p {
+    margin: 0;
+    font-size: 16px;
+}
+.testimonial-col-01 .tc-info {
+    margin: 20px 0 0;
+}
+.testimonial-col-01 .tc-info h5 {
+	font-family: 'Capriola', sans-serif;
+    margin: 0;
+    padding: 0 0 4px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #111111;
+}
+.testimonial-col-01 .tc-info label {
+	font-family: 'Capriola', sans-serif;
+    font-weight: normal;
+    margin: 0;
+}
+#blog .grid .grid-img {
+    overflow: hidden;
+}
+#blog .section-title{
+	
+}
+#blog .section-title h2{
+	font-family: 'Capriola', sans-serif;
+}
+#blog .section-title p{
+	
+}
+#blog .grid{
+	
+}
+#blog .grid .grid-img{
+
+}
+#blog .grid .grid-img a{
+
+}
+#blog .grid .grid-img img {
+	transition: ease all 0.85s;
+	transform: scale(1);
+}
+#blog .grid .grid-img img:hover{
+	transform: scale(1.2);
+}
+#blog .grid .grid-info{
+    padding: 15px 0 0;
+}	
+#blog .grid .grid-info .b-meta{
+	
+}
+#blog .grid .b-meta span {
+    font-size: 12px;
+    color: #828282;
+    line-height: 15px;
+}
+#blog .grid h5 {
+	font-family: 'Capriola', sans-serif;
+    margin: 0;
+    padding: 10px 0 15px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #111111;
+}	
+#blog .grid p {
+    margin: 0;
+    font-size: 15px;
+}	
+#blog .grid .btn-grid {
+    margin-top: 15px;
+}	
+#blog .grid .btn-grid .m-btn-link {
+	display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgba(194,16,16,0.8);
+    border-bottom: 2px solid currentColor;
+}	
+#contacts .section-title {
+	
+}
+#contacts .section-title h2{
+	font-family: 'Capriola', sans-serif;
+}
+#contacts .section-title p{
+	
+}
+#contacts .contact-form {
+	margin-bottom: 60px;
+    padding: 5%;
+	box-shadow: 0px 30px 60px 0px rgba(38, 59, 94, 0.1);
+}
+#contacts .contact-form .contact-title{
+    padding-bottom: 25px;
+    position: relative;
+}
+
+#contacts .contact-form .contact-title h5{
+	font-family: 'Capriola', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+#contacts .contact-form .contact-title p{
+	
+}
+#contacts .contact-form form{
+	
+}
+#contacts .contact-form form .form-group{
+	
+}
+#contacts .contact-form form .form-group input{
+	
+}
+#contacts .contact-form form .send{
+	text-align:left;
+}
+#contacts .contact-form form .send .m-btn.m-btn-theme {
+	background: rgba(194,16,16,0.8);
+	color: #ffffff;
+	border-color: rgba(194,16,16,0.8);
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.feature-box .icon {
+    flex: 0 0 50px;
+    max-width: 50px;
+}	
+.feature-box .icon i {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid currentcolor;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    color:rgba(194,16,16,0.8);
+}
+.feature-box .feature-content {
+    padding-left: 20px;
+}	
+.feature-box .feature-content h5{
+	font-family: 'Capriola', sans-serif;
+}
+.feature-box .feature-content p{
+	
+}
+#footer{
+	
+}
+#footer .footer-top {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+    padding: 60px 0;
+}
+#footer .footer-top .footer-about .footer-logo {
+	color: #ffffff;
+    padding-bottom: 25px;
+    font-size: 43px;
+    font-weight: 900;
+    line-height: 43px;
+}
+#footer .footer-top address{
+	
+}
+#footer .footer-top address p {
+	color: #999999;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 26px;
+}	
+#footer .footer-top address p i {
+	position: absolute;
+    top: 3px;
+    left: 0;
+}	
+#footer .footer-top address p a {
+    color: #999999;
+}	
+#footer .footer-top .footer-link{
+	
+}
+#footer .footer-top .footer-link .footer-title {
+    color: #ffffff;
+}	
+#footer .footer-top .footer-link .nav{
+	
+}
+#footer .footer-top .footer-link .nav a {
+    color: #999999;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+}
+#footer .footer-top .footer-insta{
+	
+}
+#footer .footer-top .footer-insta h5{
+	color:#fff;
+	font-family: 'Capriola', sans-serif;
+}
+#footer .footer-top .footer-insta .insta-row{
+    margin-left: -5px;
+    margin-right: -5px;
+}	
+#footer .footer-top .footer-insta .insta-row .col-4{
+    padding: 0px 5px 10px;
+}	
+#footer .footer-bottom {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}	
+#footer .footer-bottom p {
+    color: #999999;
+}
+#footer .footer-bottom .nav li {
+    margin-right: 15px;
+}
+#footer .footer-bottom .nav li a {
+   color: #999999;
+}	
+#footer .footer-bottom .nav li a i{
+	
+}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		#home2{
+			text-align:justify;
+		}
+		#home2 .main-body{
+			background-position: 0 top;
+			padding:0px;
+
+		}
+		#home2 .main .main-body .title{
+			border-left: 0px solid #ffffff;
+			padding-left:0px;
+			text-align:center;
+		}
+		#home2 .main .main-body .title h1 {
+			font-family: 'Capriola', sans-serif;
+			font-weight: 600;
+			font-size: 70px;
+			margin-bottom: 5px;
+			color: 
+			#ffffff;
+		}
+		#home2 .main .main-body .title h2{
+			font-family: 'Capriola', sans-serif;
+			font-size: 20px;
+			font-weight: bold;
+			margin: 0px;
+			color: #ffffff;			
+		}
+		#home2 .header .navbar .collapse .navbar-nav {
+			margin: 0;
+			margin-left: auto;
+			flex-direction: row;
+		}
+		#home2 #skills .title,.certificates{
+			text-align:center;
+		}
+		#home2 #skills img{
+			border:10px solid black;
+		}
+		#home2 #services .section-title label{
+			font-family: 'Capriola', sans-serif;
+			padding:5px 7px;
+			font-size:12px;
+			color:white;
+			background:black;
+			border:1px solid black;
+			border-radius:100px;
+		}
+		#home2 #services .section-title h2{
+			font-family: 'Capriola', sans-serif;
+			font-weight:700;
+			font-size:50px;
+		}
+		#home2 #work .portfolio-content .portfolio-item{
+			margin:.25rem;
+			position:unset;
+			left: 0px;
+			top: 0px;
+			border:10px solid black;
+			border-radius:10px;
+		}
+		#home2 .section{
+			padding:40px 0px;
+		}
+		#home2 #testimonial{
+			background-image:none;
+			background-position:center;
+			background-attachment: fixed;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-color:white;
+			
+		}
+		#home2 #testimonial .section-title{
+			color:#000;
+		}
+		#home2 #testimonial .section-title h2{
+			font-family: 'Capriola', sans-serif;
+			font-size:56px;
+			font-weight:600;
+		}
+		#home2 #testimonial .testimonial-col-01 p {
+			font-size: 14px;
+		}		
+		#home2 #testimonial .testimonial-col-01 .tc-info h5 {
+			font-family: 'Capriola', sans-serif;
+			font-size: 24px;
+		}
+		#home2 #testimonial .testimonial-col-01 .tc-info label {
+			font-family: 'Capriola', sans-serif;
+			font-size: 18px;
+			font-weight: normal;
+			margin: 0;
+		}	
+
+
+

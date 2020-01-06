@@ -1,0 +1,416 @@
+@media only screen and (max-width: 1024px) and (min-width: 992px){
+
+	.header .navbar .collapse .navbar-nav {
+		
+	}	
+	.header .navbar .collapse .navbar-nav .nav-item {
+		margin: 0 0 0 10px;
+	}
+	.header .navbar .collapse .social {
+		margin-bottom: 0px;
+	}	
+	.header .navbar .collapse .social .nav-item {
+		padding-left: 0px;
+	}
+	.header .navbar .collapse .social .nav-item .sicon{
+
+		border: 1px solid #fff;
+		margin: 0px;
+	}
+	
+	.main .main-body .title h1{
+		font-size:60px;
+	}	
+	.main-body .title .btn{
+		padding-top: 15px;	
+	}
+	.section{
+		padding:50px 0px;
+	}
+	
+	
+	#home2 .header .navbar .collapse .navbar-nav .nav-item {
+		margin: 0 0 0 20px;
+	}
+	
+}
+@media only screen and (max-width: 960px) and (min-width: 960px){
+	
+	.section{
+		padding:40px 0px;
+	}
+	.navbar-brand {
+		margin-right: 2rem;
+	}
+	#about .about-text .btn-theme {
+		width: 45%;
+	}	
+	.header .navbar .collapse .navbar-nav {
+		margin: auto;
+		flex-direction: row;
+	}	
+	.header .navbar .collapse .navbar-nav .nav-item {
+		/* margin: 0 0 0 15px; */
+	}	
+	.main-body .title .btn {
+		padding-top: 15px;
+		padding-left:0px;
+	}	
+	.header .navbar .collapse .navbar-nav .nav-item .nav-link {
+		line-height: 30px;
+	}
+
+	
+	#home2 .header .navbar .collapse .navbar-nav .nav-item {
+		margin: 0 0 0 20px;
+	}	
+}
+@media only screen and (max-width: 834px) and (min-width: 768px){
+
+	.header .navbar .collapse .navbar-nav {
+		/* margin-left: 7%; */
+	}
+	.header .navbar .collapse .navbar-nav .nav-item {
+		margin: 0 0 0 10px;
+	}
+	.header .navbar .collapse .navbar-nav .nav-item .nav-link {
+		line-height: 30px;
+	}
+	.header .navbar .collapse .social {
+		margin-bottom: 0px;
+		margin-left: 30%;
+	} 
+	.header .navbar .collapse .social .nav-item .sicon {
+		border-radius: 10px;
+		border: 1px solid #fff;
+		margin: 0px;
+		width: 20px;
+		line-height: 30px;
+		font-size: 14px;
+	}
+	.section{
+		padding:40px 0px;
+	}
+	.main .main-body .title h1 {
+		font-weight: 600;
+		font-size: 43px;
+		margin-bottom: 5px;
+		color: 
+		#ffffff;
+	}
+	.main .main-body .title .cd-headline {
+		font-size: 17px;
+		line-height:25px;
+	}	
+	.main-body .title .btn {
+		padding-top: 15px;
+		padding-left: 0px;
+	} 
+	.main .main-body img{
+
+		margin-top:20px;
+		padding-top:20px;
+	}
+	#about .about-text .btn{
+		padding: 0!important;
+	}
+	#about .about-text .btn-theme {
+		padding: 6px 12px;
+		width: max-content;
+	} 
+ 
+	#home2 .header .navbar .collapse .navbar-nav .nav-item {
+		margin: 0 0 0 20px;
+	} 
+ }
+@media only screen and (max-width: 767px) and (min-width: 100px){
+	
+	.header .navbar .navbar-brand {
+		margin-left: 15px;
+		font-size: 16px;
+	}	
+	.header .navbar .collapse {
+		background: rgba(47,47,47,1);
+	}
+	.header .navbar .collapse .menu {
+		margin: 0px;
+		flex-direction: column;
+	}
+	.header .navbar .collapse .menu{
+		padding-top:10px;
+	}
+		
+	.header .navbar .collapse .menu .nav-item .nav-link {
+		font-size: 15px;
+		font-weight: 600;
+		padding: 0 !important;
+		line-height: 30px;
+		display: inline-table;
+	}	
+	.header .navbar .collapse .social {
+		margin-bottom:0px;
+		padding: 20px 0px ;
+		flex-direction: row;
+	}
+	.header .navbar .collapse .menu .dropdown .dropdown-toggle{
+		vertical-align: 2px;
+	}
+	/* .header .navbar .collapse .menu .dropdown */
+	/* .dropdown-toggle .dropdown-menu{ */
+		/* position:; */
+	/* } */
+	.navbar-nav .dropdown-menu {
+		position: absolute;
+		float: none;
+	}	
+	.header .navbar .collapse .menu .dropdown
+	.dropdown-toggle .dropdown-item{
+		
+	}
+}
+@media only screen and (max-width: 415px) and (min-width: 240px){
+	
+	.main-body img{
+		display:none;
+	}	
+	.main .main-body .title {
+		text-align:center;
+		border-bottom: 4px solid #ffffff;
+		border-right: 4px solid #ffffff;
+		border-left: 0px solid #ffffff;
+		
+		padding-left: 0px;
+		padding-bottom: 30px;
+		
+		margin-top: 40px;
+		margin-bottom:10px;
+	}	
+	.main .main-body .title h1 {
+		font-weight: 600;
+		font-size: 50px;
+		margin-bottom: 5px;
+		color: #fff;
+	}
+	.main .main-body .title .cd-headline {
+		font-size: 16px;
+	}
+	.main-body .title .btn {
+		padding: 0px;
+		padding-top:10px;
+	}
+	.main-body .title .btn .btn-theme {
+		padding: 8px 16px;
+		border-bottom: 1px solid #ffffff;
+		border-right: 1px solid #ffffff;	
+	}
+	.main-body .title .btn .btn-theme:hover{
+		border-bottom: 0px solid #ffffff;
+		border-right: 0px solid #ffffff;	
+		
+	}
+	.section{
+		padding:30px;
+	}
+	#about img {
+		max-width: 60%;
+		margin-left: 50px;
+		text-align: center;
+	}	
+	#about .about-text {
+		padding: 0px 10px;
+	}	
+	#about .about-text h3 {
+		margin:0px;
+		padding-bottom: 10px;
+		font-size: 40px;
+		text-align:center;
+		text-decoration:underline;
+	}
+	#about .about-text h5 {
+
+		font-size: 18px;
+
+	}
+	#about .about-text p {
+
+		margin-bottom: 0.5rem;
+	}
+	#about .about-text .btn-theme {
+		margin-right: 5px;
+		padding: 5px;
+		display: inline-table;
+		font-size: 11px;
+		width: max-content;
+		text-transform:Capitalize;
+
+	}
+	#services .services {
+		padding:0px 30px;
+	}
+	#services .services .service-item {
+		padding: 10px;
+	}
+	#work .portfolio {
+	   margin-bottom: 2rem !important;
+	}
+	#work .portfolio-title h2 {
+		font-size: 42px;
+	}
+	#work .portfolio-title p{
+		font-size:14px;
+	}
+	#skills h2 {
+		font-size: 30px;
+		text-align:center;
+		padding-bottom: 10px;
+	}
+	#testimonial h2{
+		font-size:36px;
+	}
+	#testimonial p{
+		font-size: 14px;	
+	}
+
+	#testimonial .testimonial-col-01 {
+		margin: 15px 10px 10px 10px;
+		padding: 30px 10px 20px;
+	}
+	.testimonial-col-01 .tc-info {
+		margin: 10px 0 0;
+	}
+	#blog .section-title h2 {
+		font-size:36px;
+	}
+	#blog .section-title p{
+		font-size:16px;
+	}
+	 #contacts .section-title h2 {
+		font-size:36px;
+	}
+	 #contacts .section-title p {
+		font-size:12px;
+	}
+	#contacts .contact-form .contact-title {
+		padding-bottom: 10px;
+	}
+	#contacts .contact-form .contact-title h5 {
+		text-align:center;
+		font-size: 28px;
+	}
+	#contacts .contact-form .contact-title p {
+		font-size:12px;
+		margin-bottom:5px;
+	}
+	#contacts .contact-form form .send{
+		text-align:center;
+	}
+	#contacts .contact-form form .send .m-btn.m-btn-theme{
+		margin:10px;
+		font-weight:600;
+	}
+	#contacts .contact-form form .send .m-btn.m-btn-theme:hover{
+		color:#ffffff;
+		background:rgba(27,27,27,0.7);
+		box-shadow:0px 8px 25px rgba(250,68,100,0.9);
+
+	}
+	
+	
+	#home2 .mb-2, .my-2 {
+		margin-bottom: .25rem !important;
+	}		
+	#home2 .main .main-body .title h1 {
+		font-size: 30px;
+		padding-top: 20px;
+	}
+	#home2 .main .main-body .title h2{
+		font-size: 15px;	
+	}	
+	#home2 .main .main-body .title .btn .btn-theme {
+		font-size: 10px;	
+	}
+	#home2 #services .section-title label {
+		padding: 3px 5px;
+		font-size: 8px;
+		color: white;
+		background: black;
+		border: 1px solid black;
+		border-radius: 37px;
+	}
+	#home2 #services .section-title h2{
+		font-size:30px;
+	}
+	#home2 #services .section-title p {
+		font-size: 12px;
+	}
+	#home2 hr{
+		display:none;
+	}
+	#services .services .service-item .service-content p {
+		font-size: 12px;
+	}
+	
+	
+	#home2 #testimonial .section-title h2{
+		font-size:50px;
+		font-weight:600;
+	}
+	#home2 #testimonial .testimonial-col-01 p {
+		font-size: 12px;
+	}		
+	#home2 #testimonial .testimonial-col-01 .tc-info h5 {
+		font-size: 20px;
+	}
+	#home2 #testimonial .testimonial-col-01 .tc-info label {
+		font-size: 14px;
+	}
+	#home2 #about img {
+		max-width: 60%;
+		margin-left: 80px;
+		text-align: center;
+	}	
+}
+
+@media only screen and (max-width: 360px) and(min-width:320px;){
+	#about .about-text h3 {
+
+		font-size: 32px;
+
+	}
+	#about .about-text h5 {
+		font-size: 16px;
+	}	
+	#about .about-text p {
+		font-size: 14px;
+		margin-bottom: 0.25rem;
+	}
+	#about .about-text .btn-theme {
+		width: 25%;
+	}
+	#services .services .service-item .service-content h6 {
+		font-size: 15px;
+	}	
+	#services .section-title p {
+		font-size: 13px;
+	}
+	#work .portfolio-title p {
+
+		font-size: 13px;
+
+	}	
+	#testimonial p {
+		font-size: 13px;
+	}	
+	#blog .section-title p {
+		font-size: 13px;
+	}
+	
+	#home2 .main .main-body .title {
+		margin-top:0px;
+	}
+	#home2 #about img {
+		max-width: 60%;
+		margin-left: 60px;
+		text-align: center;
+	}		
+}
