@@ -1,0 +1,136 @@
+body{
+	margin:0;
+	padding:0;
+	font-family: 'Roboto', sans-serif;
+	text-transform:Capitalize;
+}
+/* .bg-body{ */
+	/* background-image:url("images/Galaxy-Stars.jpg"); */
+	/* background-repeat:no-repeat; */
+	/* background-size:cover; */
+	/* width:100%; */
+	/* height:100vh; */
+	/* text-transform:capitalize; */
+	/* position:absolute; */
+	/* opacity:0.7; */
+/* } */
+.header{
+		
+}
+.header h2{
+	margin:0px;
+	padding:10% 0px 0px 0px;	
+	color:#007BFF;
+	text-shadow: 2px 2px #fff;
+}
+.header p{
+	margin:8px 0px;
+	text-shadow: 2px 2px #fff;
+}
+.header span{
+		color:white;
+		text-shadow: 2px 2px #000;
+		font-weight:bold;
+		font-family: 'Courgette', cursive;
+		transition:all .7s;
+}
+.header span:hover{
+		ont-weight:600;
+		margin:0px 5px;
+		padding:0px 5px;
+		color:whitesmoke;
+		text-shadow: 2px 2px #000;
+		font-family: 'Courgette', cursive;
+		font-weight:800;
+		cursor:pointer;
+		box-shadow: 1px 1px 1px 0 rgba(0,0,0,1.0),0 2px 5px 0 rgba(0,0,0,1.0);
+		transition:all .7s;		
+}
+.wrapper{
+	width:500px;
+	height:auto;
+	position:relative;
+}
+
+.abc p{
+	color:#007BFF;
+	text-shadow: 2px 2px #fff;
+	text-align:center;
+	margin-bottom:10px;
+}
+.abc a{
+	color:red;
+	text-shadow: 2px 2px #fff;
+	cursor:pointer;
+	padding: 5px;
+	text-decoration:none;
+	transition:all .7s;
+	
+}
+.abc a:hover{
+	margin:0px 5px;
+	cursor:pointer;
+	font-weight:800;
+	box-shadow: 1px 1px 1px 0 rgba(0,0,0,1.0),0 2px 5px 0 rgba(0,0,0,1.0);
+}
+
+.abc .form{
+	background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAKIld5FyDtoQ7WbJYYwViamSdWzaChYNKCuT_LRJeBWQvBSYcbw");
+	background-image:url("images/bg2.png");
+	background-size:cover;
+	/* background-color:transparent; */
+	color:white;
+	width:70%;
+	margin-top:50px;
+	margin-bottom:30px;
+	padding:0px 10px 32px 10px;
+	box-shadow: 5px 2px 5px 0 rgba(0,0,0,1.0),0 2px 10px 0 rgba(0,0,0,1.0);
+	z-index:4px;
+	opacity:1.0;
+}
+.abc .form img{
+	width: 64px;
+	height: 64px;
+	margin:10px;
+	margin-top:-30px;
+	position:relative;
+}
+.abc .form h2{
+	margin-top:0;
+	color:#007BFF;
+	text-shadow: 2px 2px #FFF;
+}
+
+input{
+	width:90%;
+	height:auto;
+	line-height:auto;
+	text-align:center;
+	padding:11px 2px;
+	margin:20px 0px;
+	border:1;
+	border-radius:7px;
+}
+.button{
+	width:50%;
+	height:auto;
+	background-color:white;
+	color:#D53C34;
+	font-weight:bold;
+	cursor:pointer;
+	transition:all .3s;
+	box-shadow: 2px 0px 3px 0 rgba(0,0,0,0.1),0 2px 8px 0 rgba(0,0,0,0.3);
+}
+.button:hover{
+
+	background:#007BFF;
+	color:#ffffff;
+	font-weight:bold;
+	cursor:pointer;
+}
+.button:active{
+	background:#75D975;
+	color:#000;
+	font-weight:bold;
+	cursor:pointer;
+}

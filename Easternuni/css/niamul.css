@@ -1,0 +1,30 @@
+body{
+	font-family:Calibri;
+}
+.main-body .container .niamul{
+	padding:25px;
+}
+.main-body .container .niamul p{
+	font-size:16px;
+}
+.main-body .container .niamul h3{
+	font-size:15px;
+	font-weight:bold;
+	color:#002FFF;
+}
+.main-body .container .niamul ol li{
+	font-size:18px;
+	font-weight:bold;
+	color:#002FFF;
+}
+.main-body .container .niamul ol ul li{
+	font-size:15px;
+	font-weight:normal;
+	color:#000;
+}
+.main-body .container .niamul .semester ol li{
+	font-size:15px;
+	font-weight:normal;	
+	color:#000;
+}
+
