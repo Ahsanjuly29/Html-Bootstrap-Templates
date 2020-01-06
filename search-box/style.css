@@ -1,0 +1,47 @@
+body{
+	margin:0;
+	padding:0;
+	text-transform:uppercase;
+	font-family: 'Montserrat', sans-serif;
+	overflow:hidden;
+}
+.search-area {
+	min-height:700px;
+	line-height:auto;
+	Width:100%;
+	padding: 100px 0px;
+}
+.search-area h2{
+	text-align:center;
+	font-size:40px;
+	font-weight:bold;
+}
+.search-list form{
+	width:50%;
+	padding:30px;
+	background:FFFFFF;
+	padding-top: 15px;   
+	margin:0 auto;
+	position:relative;
+}
+
+.search-list form input{
+	width:100%;
+	border:1px solid #3564A8;
+	height:40px;
+	padding-left:15px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+	border-radius:20px ;
+	
+}
+.search-list button{
+	border: none;
+    background: none;
+    position: absolute;
+	right: 40px;
+	top: 20px;
+	font-size: 20px;
+}
