@@ -1,0 +1,185 @@
+@media only screen and (max-width:800px) {
+
+	.close{
+		margin-right:15px;
+	}
+	img.avatar{
+		margin-left:35px;
+	}
+	.gallery a{
+		text-align:left;
+		font-size:16px;
+	}	
+	.gallery a h2{
+		text-align:center;
+		font-size:18px;
+	}	
+
+	.gallery img{
+
+	
+	}
+	
+	.modal-content {
+		
+		width: 70%; /
+	}
+	img.avatar {
+		width: 30%;
+	}
+	.thank{
+		font-size:45px;
+	}
+	
+	.details ul{
+		padding-left:16px;
+	}
+	.details ul li{
+		font-size:16px;
+		line-height:25px;
+		letter-spacing:0px;
+
+	}	
+}
+
+@media only screen and (max-width:736px){
+	.details h3{
+
+		font-size:16px;
+		
+	}
+	.details p{
+		font-size: 16px;
+		line-height: 25px;
+		letter-spacing: 0px;
+		word-spacing: 2px;
+
+	}
+	.details ul{
+		padding-left:16px;
+	}
+	.details ul li{
+		font-size:16px;
+		line-height:25px;
+		letter-spacing:0px;
+
+	}	
+	
+}
+@media only screen and (max-width:414px) {
+	
+	.header h2{
+ 
+		font-size:25px;
+	}
+		
+	.gallery .row{
+		margin: 0 auto;
+		position: ;
+		left:12%;
+	}
+	.gallery a{
+
+	}	
+	
+	.gallery a h2{
+		text-align:center;
+		font-size:18px;
+	}	
+	
+	.gallery img{
+
+		position: relative;
+		margin-bottom:10px;
+		/* margin-left: 10% */
+	}
+	
+	.modal-content {
+
+		width: 80%; /
+	}
+	img.avatar {
+		width: 50%;
+		border-radius: 50%;
+	}
+
+	.thank{
+		font-size:30px;
+	}
+
+	.details h3{
+
+		font-size:16px;
+		
+	}
+	.details p{
+		font-size: 16px;
+		line-height: 25px;
+		letter-spacing: 0px;
+		word-spacing: 2px;
+
+	}
+	.details ul{
+		padding-left:25px;
+	}
+	.details ul li{
+		font-size:16px;
+		line-height:25px;
+		letter-spacing:0px;
+
+	}	
+}
+
+@media only screen and (max-width:375px) and (min-width:319px){
+	.gallery .row{
+		
+		left:12%;
+	}
+	.gallery img{
+
+		position: relative;
+		margin-bottom:10px;
+		margin-left: 2.5%
+	}	
+}
+@media only screen and (max-width:320px) and (min-width:100px){
+
+	.gallery .row{
+
+		margin:auto;
+		position: unset;
+		right: 0%;
+		left:0%;
+	}
+	.gallery img{
+
+		position: relative;
+	}
+
+	.modal-content {
+
+		width: 95%; /
+	}
+
+}
+@media only screen and (max-width:414px) and (min-width:100px)
+{
+	.col-sm-3{
+		max-width:50%;
+
+	}
+	.details h2{
+		font-size:22px;
+	}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}

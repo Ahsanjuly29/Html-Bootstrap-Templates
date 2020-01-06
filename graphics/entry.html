@@ -1,0 +1,200 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/bootstrap-grid.css" />
+		
+		<!-- Font Awesome  -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed|IBM+Plex+Sans:400,700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Do+Hyeon&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Kanit|Signika&display=swap" rel="stylesheet">
+	
+	
+		<!-- Custom Css -->
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/responsive.css" />
+
+		<title>Product Entry</title>
+		<style type="text/css">
+		
+			body{
+				transition:0.7s;
+			}
+			.container{
+				padding-bottom:0px;
+			}
+			.header h2{
+				color:#000;
+				transition:0.8s;
+			}
+			.header h2:hover{
+				text-shadow: 2px 2px 4px #C3C3C3;
+				transition:0.8s;
+			}
+		 
+			form{
+				background:white;
+				color:black;
+				font-weight:bollackd;		
+				border:1px solid black;
+				margin-bottom:1%;
+				padding:1% 4%;
+				transition:1.7s;		
+			}	
+			form:hover{
+				color:green;		
+				padding:2% 6%;
+				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
+				transition:0.7s;
+				transition:0.7s;
+				
+			}
+			.form-row,.form-group,input,option,select{
+				font-size:18px;
+				letter-spacing:2px;
+				word-spacing:2px;
+				text-align:center;
+				transition:0.7s;
+			}
+			label{
+				font-family: IBM Plex Sans;
+				font-size:18px;
+				font-weight:700;
+				transition:0.7s;
+				
+			}
+			label:hover{
+				font-family: IBM Plex Sans;
+				transition:0.7s;	
+			}
+			input{
+				font-family:Signika;
+			}
+			.btn{
+				font-weight:700;
+			}
+		</style>
+	</head>
+	<body>
+
+		<div class="container bg-white">
+			<div class="row">
+				
+				<div class="header col-sm-12" align="center">
+					<h2>Notes For Graphics Designing</h2><hr />
+				</div>
+				
+				<div class="col-sm-12">
+					<div class="icon-bar">
+					  <a class="active" href="index.html"><i class="fa fa-home"></i></a> 
+					  <a href="entry.html"><i class="fa fa-clipboard" aria-hidden="true"></i></a> 
+					</div>				
+				</div>
+				
+				<div class="col-sm-2"></div>
+				
+				<div class="col-sm-8">
+					<form>
+						<div class="form-group">
+							<label for="subject">Subject Name</label>
+							<input type="name" class="form-control" id="subject" placeholder="Ex. Business Card">
+						</div>
+						
+						<div class="form-row">
+							<div class="form-group col-md-6">
+								<label for="width">Width</label>
+								<input name="Width" type="number" class="form-control" id="width" placeholder="Ex. 3.5  Inchesches" step="0.01">
+							</div>
+							<div class="form-group col-md-6">
+								<label for="height">Height</label>
+								<input name="height" type="number" class="form-control" id="height" placeholder="Ex. 2  Inches" step="0.01">
+							</div>
+						</div>
+						
+						<div class="form-row">
+							<div class="form-group col-md-6">
+								<label for="inputAddress2">Safe Area</label>
+								<input name="safe" type="number" class="form-control" id="safe" placeholder="Ex. 0.25 Inches" step="0.01">
+							</div>
+							<div class="form-group col-md-6">
+								<label for="inputCity">Bleeding Area</label>
+								<input name="bleed" type="number" class="form-control" id="bleed" placeholder="Ex. 0.125 Inches" step="0.01">
+							</div>
+						</div>
+						
+						<div class="form-row">
+							<div class="form-group col-md-4">
+								<label for="inputCity">Binding Area</label>
+							</div>
+							
+							<div class="form-group col-md-4">
+								<select id="inputState" class="form-control">
+								<option selected>Choose...</option>
+								<option>Left</option>
+								<option>Right</option>
+								<option>Top</option>
+								<option>Bottom</option>
+								</select>
+							</div>
+
+							<div class="form-group col-md-4">
+								<input name="bleed" type="number" class="form-control" id="bleed" placeholder="Ex. 0.125 Inches" step="0.01">
+							</div>
+						</div>
+						
+						<div class="form-group">
+							<label for="subject">Example</label>
+							<input name="example" type="file" class="form-control" id="image">
+						</div>
+
+						<div class="form-group">
+							<label for="subject">Mockup Link</label>
+							<input type="text" class="form-control" id="link" placeholder="www.example.com">
+						</div>
+						
+						<div class="form-group m-0">
+							<input align="center" type="submit" class="btn btn-success" value="Sign  Inches">
+						</div>
+						
+					</form>
+				</div>
+				
+				<div class="col-sm-2"></div>
+			</div>
+			
+			<div class="details container py-4"> 
+				<div class="row">
+					<div class="col-sm-12">
+						<h4 class="img-thumbnail px-2">This site is Created By<br />
+							<a href="http://www.ahsanenterprize.com">
+								<span><i class="fa fa-copyright" aria-hidden="true"></i>Ahsan Enterprize</span>
+							</a>
+						</h4>
+					</div>	
+				</div>
+			</div>		
+
+		</div>
+	</body>
+
+	<script src="js/bootstrap.js"></script>
+	<script src="js/bootstrap.bundle.js"></script>
+	<script>
+		// Get the modal
+		var modal = document.getElementById('id01');
+
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+			if (event.target == modal) {
+			modal.style.display = "none";
+			}
+		}
+	</script>	
+</html>
