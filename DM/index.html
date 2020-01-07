@@ -5,19 +5,75 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <style>
+      body {
+        font-family: "Lato", sans-serif;
+      }
+
+      .sidenav {
+        height: 100%;
+        width: 250px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        padding-top: 20px;
+      }
+      .sidenav h2{
+        margin-top: 10px;
+        text-align: center;
+        font-size: 30px;
+        color: white;
+      }
+ 
+      .sidenav a {
+        text-align: justify;
+        padding: 6px 6px 6px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+      }
+
+      .sidenav a:hover {
+        color: #f1f1f1;
+      }
+
+      .main {
+        margin-left: 200px; /* Same as the width of the sidenav */
+      }
+
+      @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+      }
+  </style>
+
+</head>
+ 
+<body>
+
+<div class="sidenav">
+  <h2>Our Services</h2>
+  <div class="mt-5">
+    <a class="btn btn-primary text-white mb-2" href="fb/index.html">Facebook</a>
+    <a class="btn btn-primary text-white mb-2" href="#">Clients</a>
+    <a class="btn btn-primary text-white mb-2" href="#">Contact</a>
+  </div>
+</div>
+
+<div class="main">
+  <div class="m-5"></div>
+  <div class="container">
+    <h1 class="text-center">Ahsan Enterprize</h1>
+    <p class="text-center">This sidenav is always shown.</p>
+  </div>
+</div>
+   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-</head>
-<body>
-
-<div class="container">
-	<h1 style="text-align: center;">Ahsan Enterprize</h1>
-	<p>We Are popular for Our customer Satisfactories!</p> 
-	<ul class="list-group list-group-horizontal">
-		<li class="list-group-item"><a href="">First item</a></li>
-	</ul>
-</div>
-
 </body>
-</html>
+</html> 
